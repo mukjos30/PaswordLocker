@@ -95,10 +95,10 @@ class TestCredentials(unittest.TestCase):
 		Test to check if we can find a credential by credential_account
 		'''
         self.new_credential.save_credentials()
-        test_user = Credential('josee','github','mukjos30','abcdef')
+        test_user = Credential('josee','tuitter','josee mukandayisenga','abcdef')
         test_user.save_credentials()
         
-        credential_exists = Credential.find_by_credential_name('github')
+        credential_exists = Credential.find_by_credential_name('tuitter')
         self.assertEqual(credential_exists,test_user)
         
     def test_display_credentials(self):
@@ -106,7 +106,7 @@ class TestCredentials(unittest.TestCase):
         method that returns a list of all credentials saved
         '''
         self.new_credential.save_credentials()
-        test_user = Credential('josee','github','mukjos30','abcdef')
+        test_user = Credential('josee','tuitter','josee mukandayisenga','abcdef')
         test_user.save_credentials()
         
         self.assertEqual(Credential.display_credentials(User),Credential.user_credentials_list)
@@ -116,7 +116,7 @@ class TestCredentials(unittest.TestCase):
 		Test to confirm if we can copy a credential from saved credentials
 		'''
         self.new_credential.save_credentials()
-        test_user = Credential('josee','github','mukjos30','abcdef')
+        test_user = Credential('josee','tuitter','josee mukandayisenga','abcdef')
         test_user.save_credentials() 
         Credential.copy_credential('abcdef')
         
