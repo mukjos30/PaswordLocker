@@ -1,5 +1,5 @@
 
-import pyperclip  #importing pyperclip for copying to clipboard
+import pyperclip   
 from password import User  #imporing user class
 from credential import Credential #importing credential class
 
