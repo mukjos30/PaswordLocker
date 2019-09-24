@@ -1,4 +1,3 @@
-## Delani-Studio Project
 
 ### My project help the user  to know us 
 

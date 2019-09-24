@@ -1,6 +1,6 @@
-
-import pyperclip   
-from password import User  #imporing user class
+#!/usr/bin/env python3.6
+import pyperclip  #importing pyperclip for copying to clipboard
+from password import User  #importing user class
 from credential import Credential #importing credential class
 
 
