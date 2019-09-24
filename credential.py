@@ -1,6 +1,6 @@
 import pyperclip  
 from password import User  
-import random #import random variable generator
+import random 
  
 
 class Credential:
