@@ -1,7 +1,9 @@
 import pyperclip #importing pyperclip for copying to clipboard
-# from password import User #importing user class 
+import pyperclip #importing pyperclip for copying to clipboard
+from password import user #importing user class 
 import random #import random variable generator
 import string  #import string constants
+
 
 class Credential:
 	'''
