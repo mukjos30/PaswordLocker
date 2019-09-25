@@ -1,4 +1,4 @@
-class User:
+class user:
     """
     Class that generates new instances of user identify for creating an account in the app
     """

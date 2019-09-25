@@ -1,6 +1,6 @@
 import pyperclip
 
-class user:
+class User:
 	'''
 	Class to create user accounts and save their details
 	'''
