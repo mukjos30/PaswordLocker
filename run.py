@@ -91,10 +91,10 @@ def copy_credential(credential_account):
 
 def main():
     print(' ')
-    print('Hello! Welcome to Password Locker.')
+    print('Most Welcome to Password Locker.')
  
     while True:
-        print("-"*34)
+        print("-"*10)
         print('\n')
 
         print('Use these short codes: \n ca - Create an Account \n lg - Login \n ex - Exit')
@@ -132,15 +132,15 @@ def main():
                 
 
                 while True:
-                    print("-"*30)
+                    print("-"*20)
                     print('Our short codes: \n ac-Add existing Credential \n cc-Create a Credential \n sc-Display Credentials \n fc- Find a Credential  \n cp-Copy Password \n rc- Delete account \n ex-Exit' )
                     print('\n')
                     short_code = input('Enter a choice: ').lower()
-                    print("-"*20)
+                    print("-"*10)
 
                     if short_code == 'ex':
                         
-                        print(f'Thank you for using Password Locker. Goodbye {username}')
+                        print(f'Thank you for using Password Locker.  {username}')
                         print("-"*50)
                         break
 
